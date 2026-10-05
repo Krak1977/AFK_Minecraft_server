@@ -5,7 +5,7 @@ function createBot() {
         host: 'gmd.seedloaf.gg', // <--- REEMPLAZA ESTO POR LA IP DE TU SERVER
         port: 25565,                // Puerto predeterminado de Minecraft
         username: 'BOT_AFK',    // Nombre genérico del bot/NPC dentro del juego
-        version: false              // Autodetecta la versión exacta del servidor (1.8 a 1.21+)
+        version: 26.3              // Autodetecta la versión exacta del servidor (1.8 a 1.21+)
     });
 
     bot.on('spawn', () => {
